@@ -1,4 +1,13 @@
-import Head from 'next/head'
+import Head from "next/head";
+import { BsFillMoonStarsFill } from "react-icons/bs";
+import {
+  AiFillTwitterCircle,
+  AiFillLinkedin,
+  AiFillGithub,
+} from "react-icons/ai";
+import Image from "next/image";
+import deved from '../public/dev-ed-wave.png'
+
 
 export default function Home() {
   return (
@@ -9,11 +18,69 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <section className="bg-blue-200">
-            <h1>Hello</h1>
+      <main className="bg-white px-10">
+        <section className="min-h-screen">
+          <nav className="py-10 mb-12 flex justify-between">
+            <h1 className="text-xl font-burtons">developedbymm</h1>
+            <ul className="flex items-center">
+              <li>
+                <BsFillMoonStarsFill className="cursor-pointer text-2xl" />
+              </li>
+              <li>
+                <a
+                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-lg ml-8"
+                  href="#"
+                >
+                  Resume
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div className="text-center p-10">
+            <h2 className="text-5xl py-2 text-red-700 font-medium">Mason Mei</h2>
+            <h3 className="text-2xl py-2">FullStack Developer</h3>
+            <p className="text-md py-5 leading-8 text-gray-700">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the <span className="text-teal-500">1500s</span>, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum
+            </p>
+          </div>
+          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+            <AiFillTwitterCircle />
+            <AiFillLinkedin />
+            <AiFillGithub />
+          </div>
+          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
+            <Image src={deved} layout="fill" objectFit="cover"/>
+          </div>
+        </section>
+
+
+        <section>
+          <div>
+            <h3 className="text-3xl py-1">My Projects</h3>
+            <p className="text-md py-2 leading-8 text-gray-700" >
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum
+            </p>
+          </div>
         </section>
       </main>
     </div>
-  )
+  );
 }
