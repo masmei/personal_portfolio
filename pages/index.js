@@ -102,7 +102,7 @@ export default function Home() {
             </a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
-            <Image src={avatar} layout="fill" objectFit="cover" />
+            <Image src={avatar} layout="fill" objectFit="cover" alt="profilepic" />
           </div>
         </section>
 
@@ -119,6 +119,7 @@ export default function Home() {
                 src={nftmarketplace}
                 width={600}
                 height={375}
+                alt="nftmarket"
               />
               <h3 className="text-2xl py-2 font-bold">NFT Marketplace</h3>
               <div className="py-2">
@@ -161,6 +162,7 @@ export default function Home() {
                 src={littlepepper}
                 width={600}
                 height={375}
+                alt="littlepepper"
               />
               <h3 className="text-2xl  py-2 font-bold">
                 Recipe Finder | Health Tracker
@@ -204,6 +206,7 @@ export default function Home() {
                 src={pursuitconnect}
                 width={600}
                 height={375}
+                alt="pursuitconnect"
               />
               <h3 className="text-2xl  py-2 font-bold">
                 Social Networking App
