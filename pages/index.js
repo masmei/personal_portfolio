@@ -232,7 +232,7 @@ export default function Home() {
                   Tech Stack:
                 </h4>
                 <p className="text-gray-800 py-1 text-lg font-semibold italic">
-                  Velo | Wix
+                  Velo | Wix | React | Javascript | HTML | CSS
                 </p>
               </div>
               <p className="px-10">
