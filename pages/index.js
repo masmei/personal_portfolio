@@ -81,18 +81,21 @@ export default function Home() {
             <a
               href="https://twitter.com/Dapp_Boy"
               target="_blank"
+              rel="noreferrer"
             >
               <AiFillTwitterCircle className=" dark:text-white" />
             </a>
             <a
               href="https://www.linkedin.com/in/masonmei/"
               target="_blank"
+              rel="noreferrer"
             >
               <AiFillLinkedin className=" dark:text-white" />
             </a>
             <a
               href="https://github.com/masmei"
               target="_blank"
+              rel="noreferrer"
             >
               <AiFillGithub className=" dark:text-white" />
             </a>
@@ -122,6 +125,7 @@ export default function Home() {
                   className="bg-gradient-to-r from-blue-500 to-blue-500 text-white px-4 py-2 rounded-lg mr-1"
                   href="https://pursuitnfts.netlify.app/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Live Site
                 </a>
@@ -130,6 +134,7 @@ export default function Home() {
                   className="bg-gradient-to-r from-blue-500 to-blue-500 text-white px-4 py-2 rounded-lg ml-1"
                   href="https://github.com/masmei/nft_marketplace"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Github
                 </a>
@@ -164,6 +169,7 @@ export default function Home() {
                   className="bg-gradient-to-r from-blue-500 to-blue-500 text-white px-4 py-2 rounded-lg mr-1"
                   href="https://littlepepper.netlify.app/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Live Site
                 </a>
@@ -172,6 +178,7 @@ export default function Home() {
                   className="bg-gradient-to-r from-blue-500 to-blue-500 text-white px-4 py-2 rounded-lg ml-1"
                   href="https://github.com/masmei/A-Little-Pepper-FE"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Github
                 </a>
@@ -205,6 +212,7 @@ export default function Home() {
                   className="bg-gradient-to-r from-blue-500 to-blue-500 text-white px-4 py-2 rounded-lg mr-1"
                   href="https://masonmei.wixsite.com/pursuitconnect"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Live Site
                 </a>
@@ -315,18 +323,21 @@ export default function Home() {
             <a
               href="https://twitter.com/Dapp_Boy"
               target="_blank"
+              rel="noreferrer"
             >
               <AiFillTwitterCircle />
             </a>
             <a
               href="https://www.linkedin.com/in/masonmei/"
               target="_blank"
+              rel="noreferrer"
             >
               <AiFillLinkedin />
             </a>
             <a
               href="https://github.com/masmei"
               target="_blank"
+              rel="noreferrer"
             >
               <AiFillGithub />
             </a>
