@@ -114,6 +114,8 @@ export default function Home() {
           </div>
           <div className="2xl:flex gap-10">
             <div className="2xl:max-w-[31%] text-center shadow-lg p-2 rounded-xl my-10 py-5 dark:bg-gray-200">
+              <div className="flex justify-center">
+
               <Image
                 className="rounded-xl"
                 src={nftmarketplace}
@@ -121,6 +123,7 @@ export default function Home() {
                 height={375}
                 alt="nftmarket"
               />
+              </div>
               <h3 className="text-2xl py-2 font-bold">NFT Marketplace</h3>
               <div className="py-2">
                 <a
@@ -157,6 +160,7 @@ export default function Home() {
               </p>
             </div>
             <div className="2xl:max-w-[31%] text-center shadow-lg p-2 rounded-xl my-10 py-5 dark:bg-gray-200">
+            <div className="flex justify-center">
               <Image
                 className="rounded-xl"
                 src={littlepepper}
@@ -164,6 +168,7 @@ export default function Home() {
                 height={375}
                 alt="littlepepper"
               />
+              </div>
               <h3 className="text-2xl  py-2 font-bold">
                 Recipe Finder | Health Tracker
               </h3>
@@ -201,6 +206,7 @@ export default function Home() {
               </p>
             </div>
             <div className="2xl:max-w-[31%] text-center shadow-lg p-2 rounded-xl my-10 py-5 dark:bg-gray-200">
+            <div className="flex justify-center">
               <Image
                 className="rounded-xl"
                 src={pursuitconnect}
@@ -208,6 +214,7 @@ export default function Home() {
                 height={375}
                 alt="pursuitconnect"
               />
+              </div>
               <h3 className="text-2xl  py-2 font-bold">
                 Social Networking App
               </h3>
