@@ -40,6 +40,7 @@ export default function Home() {
                   className="bg-gradient-to-r from-blue-500 to-blue-500 text-white px-4 py-2 rounded-lg ml-8"
                   href="https://docs.google.com/document/d/1COB4ZrwQhKSpu5N0uMkg8vZr6n2ExjHP/edit"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Resume
                 </a>
