@@ -108,7 +108,7 @@ export default function Home() {
 
         <section className="py-7 mx-auto">
           <div>
-            <h2 className="text-4xl py-2 text-teal-700 font-medium md:text-4xl  dark:text-white">
+            <h2 className="text-4xl py-2 text-teal-700 text-center font-bold md:text-4xl  dark:text-white">
               My Projects
             </h2>
           </div>
